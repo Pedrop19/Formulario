@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="./" type="image/x-icon">
+	<script src="./js/script.js"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Formulario</title>
+</head>
+<body>
+	<header>
+		<div class="header-left">
+			<img class="left" src="./img/github.png" alt="" width="40px">
+			<p class="right">Ya tienes una cuenta? <span>Entrar ➡</span></p>
+		</div>
+	</header>
+    <div class="area" >
+		<ul class="circles">
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+		</ul>
+</div >
+    <main>
+        <div class="formul">
+			<p id="titulo"></p><br>
+			<form action="" id="formulario">
+				<div>
+					<label for="email">Introduce tu email*:</label><br>
+					<span>➡ </span><input type="email" id="email" class="normal" autofocus>
+				</div>
+				<div>
+					<label id="labelpsw" class="hidd" for="psw">Introduce tu contraseña*:</label><br>
+					<span id="spanpsw" class="hidd">➡ </span><input type="password" id="psw" class="normal hidd">
+				</div>
+				<div>
+					<label id="labeluser" class="hidd" for="usr">Introduce tu usuario*:</label><br>
+					<span id="spanuser" class="hidd">➡ </span><input type="text" id="usr" class="normal hidd">
+				</div>
+				<div>
+					<label id="labeltel" class="hidd" for="tel">Introduce tu telefono*:</label><br>
+					<span id="spantel" class="hidd">➡ </span><input type="number" id="tel" class="normal hidd">
+				</div>
+			</form>
+			<br>
+				<button type="button" id="continue">Continuar</button>
+        </div>
+		<div id="hidden" class="error">
+		</div>
+    </main>
+</body>
+</html>
